@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.body{
+    background-image: url(../imagenes/restaurante.webp);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.imagen{
+    margin-left: 1000px  ;
+    width: 170px;
+    margin-top: -80px;
+    height: 150px;
+    border-radius: 50%;
+    background: black;
+   
+    
+    
+}
+
+.menu{
+    list-style: none;
+    background-color: #D35400;
+    width: 600px;
+    max-width: 1000px;
+    margin: 20px;
+    text-align: center;
+    opacity: 96%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    border-radius: 34px;
+
+}
+
+
+.alerta{
+    background: rgb(255, 253, 253);
+    
+    
+}
+
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(249, 245, 245);
+    font-size: 20px;
+
+    
+
+}
+
+
+
+.menu li{
+    text-align: center;
+    margin: auto;
+    padding: 4%;
+
+
+} 
+.menu li:hover{
+    background: rgb(124, 112, 105);
+    transition-duration: 100ms;
+    border-radius: 30px;
+    
+}
+
+.alerta{
+    width: 500px;
+    background: rgb(246, 246, 246);
+    padding: 35px;
+    margin: auto;
+    opacity: 70%;
+    border-radius: 2%;
+    font-size: 20px;
+    margin-top: 8%;
+}

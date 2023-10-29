@@ -1,0 +1,102 @@
+body{
+    background-image: url(../imagenes/restaurante.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.titulo{
+    background: rgb(211, 198, 198);
+    padding: 25px;
+    margin: auto;
+    opacity: 90%;
+    border-radius: 2%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menu{
+    list-style: none;
+    background-color: #D35400;
+    width: 250px;
+    max-width: 1000px;
+    margin: 5px;
+    text-align: center;
+    opacity: 96%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    border-radius: 34px;
+    margin-left: 550px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: rgb(249, 245, 245);
+    font-size: 20px;
+
+    
+
+}
+
+
+
+.menu li{
+    
+    margin: auto;
+    padding: 4%;
+
+
+} 
+.menu li:hover{
+    background: rgb(124, 112, 105);
+    transition-duration: 100ms;
+    border-radius: 30px;
+    
+}
+
+.button{
+    
+    border-radius: 7px;
+    width: 12%;
+    margin: 100px;
+    background: #080808;
+    color: black;
+    opacity: 80%;
+ 
+}
+
+label{
+    display: block;
+    margin-bottom: 6px;
+}
+
+h3{
+    color: rgb(255, 245, 245);
+    display: inline-block;
+    text-decoration: none;
+    padding:  20px;
+    background-color: aliceblue;
+    
+}
+
+
+
+
+
+input[type="text"],
+input[type="date"]{
+
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"]{
+
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: #e5e5f7;
+    background-size: 20px 35px;
+    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    background: url(../imagenes/restaurante.webp);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.form{
+    
+    background: #e5e5f7;
+    margin: auto;
+    width: 70%;
+    max-width: 359px;
+    padding: 4.5em 3em;
+    border-radius: 20px;
+    box-shadow:  0 5px 10px -5px (0 0 0 / 30%);
+    text-align: center;
+    opacity: 90%
+    
+
+}
+
+.img22{
+    border-radius: 800px;
+    width: 120px;
+    height: 120px;
+    margin-top: -270px;
+    opacity: 100%;
+    
+    
+}
+
+

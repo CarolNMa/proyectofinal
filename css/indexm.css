@@ -1,0 +1,16 @@
+.body{
+    background-image: url(../imagenes/restaurante.webp);
+    font-size: 20px;
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.titulo{
+
+    width: 300px;
+    background: black;
+}
